@@ -16,6 +16,6 @@ min_version = "0.25.1"
 
 # If porting an existing theme
 [original]
-  name = ""
-  homepage = ""
-  repo = ""
+  name = "XMin"
+  homepage = "https://xmin.yihui.name"
+  repo = "https://github.com/yihui/hugo-xmin/"
