@@ -1,5 +1,6 @@
 {{ partial "header.html" . }}
   <h1> {{ .Title }} </h1>
-  <h2> {{ .Date.Format "Monday, Jan 2, 2006"   }}</h2>
+  <h2> {{ .Date.Format "Monday, Jan 2, 2006"}}</h2>
+  <h2>Last modified: {{.Lastmod}}</h2>
   {{ .Content }}
 {{ partial "footer.html" . }}
