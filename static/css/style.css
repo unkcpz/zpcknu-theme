@@ -27,6 +27,12 @@ a:visited {
   background-color: #555;
   color: white;
 }
+.floatleft {
+    float:left;
+}
+.floatright {
+    float:right;
+}
 .article-meta, a {
   text-decoration: none;
   background: #ffffff;
