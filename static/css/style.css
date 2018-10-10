@@ -5,21 +5,40 @@ body {
   line-height: 1.5em;
 }
 
+a {
+  color: #003366;
+}
+a:visited {
+    color:gray;
+}
+
+
 /* header and footer areas */
 .menu { padding: 0; }
 .menu li { display: inline-block; }
-.article-meta, .menu a {
+.menu a {
   text-decoration: none;
-  background: #eee;
+  background: #ffaa80;
   padding: 5px;
   border-radius: 5px;
 }
-.menu, .article-meta, footer { text-align: center; }
+.menu {text-align: right;}
+.menu li a:hover {
+  background-color: #555;
+  color: white;
+}
+.article-meta, a {
+  text-decoration: none;
+  background: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+}
+.article-meta, footer { text-align: center; }
 .title { font-size: 1.1em; }
 footer a { text-decoration: none; }
 hr {
   border-style: dashed;
-  color: #ddd;
+  color: #002266;
 }
 
 /* code */
