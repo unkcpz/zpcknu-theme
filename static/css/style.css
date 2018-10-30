@@ -12,6 +12,29 @@ a:visited {
     color:gray;
 }
 
+/* content */
+main.content {
+  border: 2px dotted 	#fff2cc;
+}
+
+.content h2::before{
+  content: " € ";
+  color: red;
+  font-weight: bold;
+}
+
+.content h3::before{
+  content: " €€ ";
+  color: red;
+  font-size: 55%;
+}
+
+.content h4::before{
+  content: " €€€ ";
+  color: red;
+  font-size: 50%;
+}
+
 /* header and footer areas */
 .menu { padding: 0; }
 .menu li { display: inline-block; }

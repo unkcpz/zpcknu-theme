@@ -5,3 +5,11 @@ code {
   font-family: "Lucida Console", Monaco, monospace;
   font-size: 85%;
 }
+
+h2.author {
+  font-size: 70%;
+}
+
+h2.date {
+  font-size: 65%;
+}
