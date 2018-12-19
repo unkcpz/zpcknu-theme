@@ -35,6 +35,13 @@ main.content {
   font-size: 50%;
 }
 
+/* image */
+img {
+  display: block;
+  margin-right: auto;
+  width: 60%;
+}
+
 /* header and footer areas */
 .menu { padding: 0; }
 .menu li { display: inline-block; }
