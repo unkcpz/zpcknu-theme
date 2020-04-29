@@ -9,7 +9,9 @@ a {
   color: #003366;
 }
 a:visited {
-    color:gray;
+  color:gray;
+  text-decoration: underline;
+  text-decoration-style:dotted;
 }
 
 /* content */
@@ -63,7 +65,8 @@ img {
     float:right;
 }
 .article-meta, a {
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-style:dotted;
   background: #ffffff;
   padding: 5px;
   border-radius: 5px;
