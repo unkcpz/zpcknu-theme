@@ -20,19 +20,19 @@ main.content {
 }
 
 .content h2::before{
-  content: " € ";
+  content: " § ";
   color: red;
   font-weight: bold;
 }
 
 .content h3::before{
-  content: " €€ ";
+  content: " §§ ";
   color: red;
   font-size: 55%;
 }
 
 .content h4::before{
-  content: " €€€ ";
+  content: " §§§ ";
   color: red;
   font-size: 50%;
 }
