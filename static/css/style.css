@@ -21,20 +21,20 @@ main.content {
 
 .content h2::before{
   content: " § ";
-  color: red;
+  color: #004d99;
   font-weight: bold;
 }
 
 .content h3::before{
   content: " §§ ";
-  color: red;
-  font-size: 55%;
+  color: #004d99;
+  font-size: 65%;
 }
 
 .content h4::before{
   content: " §§§ ";
-  color: red;
-  font-size: 50%;
+  color: #004d99;
+  font-size: 55%;
 }
 
 /* image */
